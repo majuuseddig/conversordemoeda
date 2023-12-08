@@ -1,0 +1,26 @@
+{
+  "name": "app-moedas-gluestack",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@gluestack-style/react": "^1.0.11",
+    "@gluestack-ui/config": "^1.0.3",
+    "@gluestack-ui/themed": "^1.0.10",
+    "@react-native-picker/picker": "^2.5.1",
+    "expo": "~49.0.15",
+    "expo-status-bar": "~1.6.0",
+    "react": "18.2.0",
+    "react-native": "0.72.6",
+    "react-native-svg": "13.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
